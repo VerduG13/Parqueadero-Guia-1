@@ -16,9 +16,6 @@ public abstract class Vehiculo {
         this.horaEntrada = horaEntrada;
     }
 
-    public Vehiculo() {
-    }
-
     public String getPlaca() {
         return placa;
     }
@@ -43,12 +40,7 @@ public abstract class Vehiculo {
         this.modelo = modelo;
     }
 
-    @Override
-    public String toString() {
-        return "Vehiculo{" +
-                "placa='" + placa + '\'' +
-                ", marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                '}';
+    public LocalDateTime getHoraEntrada() {
+        return horaEntrada;
     }
 }

@@ -11,10 +11,6 @@ public class Automovil extends Vehiculo {
         this.tipoCombustible = tipoCombustible;
     }
 
-    public Automovil() {
-
-    }
-
     @Override
     public String toString() {
         return super.toString() + "Automovil{" +
