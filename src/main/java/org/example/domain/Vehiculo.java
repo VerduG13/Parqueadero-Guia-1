@@ -43,4 +43,14 @@ public abstract class Vehiculo {
     public LocalDateTime getHoraEntrada() {
         return horaEntrada;
     }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "placa='" + placa + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", horaEntrada=" + horaEntrada +
+                '}';
+    }
 }
