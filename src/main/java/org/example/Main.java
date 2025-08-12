@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.domain.*;
+import org.example.service.Parqueadero;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

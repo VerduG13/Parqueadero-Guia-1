@@ -1,10 +1,13 @@
-package org.example.domain;
+package org.example.service;
+
+import org.example.domain.Automovil;
+import org.example.domain.Motocicleta;
+import org.example.domain.Vehiculo;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
 public class Parqueadero {
